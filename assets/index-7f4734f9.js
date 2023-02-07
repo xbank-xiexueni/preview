@@ -1,0 +1,1 @@
+import{r as v}from"./react-venders-43274802.js";import{Q as a}from"./index-d196e65e.js";function P(c){const{value:s,defaultValue:p,onChange:d,shouldUpdate:f=(t,u)=>t!==u}=c,r=a(d),l=a(f),[i,h]=v.useState(p),e=s!==void 0,o=e?s:i,m=a(t=>{const n=typeof t=="function"?t(o):t;l(o,n)&&(e||h(n),r(n))},[e,r,o,l]);return[o,m]}export{P as u};
